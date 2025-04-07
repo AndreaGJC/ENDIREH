@@ -1,0 +1,73 @@
+/* Fonts families: https://fonts.google.com/*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap');
+
+html, body, [class*="css"], .stText, .stMarkdown, .stAlert {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    font-weight: 490;
+    color: rgba(28, 28, 28, 0.785);
+    letter-spacing: .03em;
+    line-height: 150%;
+    text-align: left;
+    background-color: white;
+}
+
+.stColumn {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 1.2%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.stButton {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Specific title customizations: h1 es titulo, h2 es header y h3 es subheader */
+h2 {
+    font-size: 25px !important;
+    font-weight: 630 !important;
+    color: rgb(0, 0, 0) !important;
+    line-height: 100% !important;
+    letter-spacing: .01em !important;
+}
+h3 {
+    margin-top: 0cm !important;
+    font-size: 15px !important;
+    font-weight: 630 !important;
+    color: #000000 !important;
+    line-height: 100% !important;
+    letter-spacing: .01em !important;
+    text-align: left;
+}
+
+/* Para cambiar el ambiente del objeto -metric- de streamlit*/
+[data-testid="stMetric"] {
+    background-color: #f6f6f6ea !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 1.5rem !important;
+    padding: 1% !important;
+    text-align: center !important;
+    font-size: 10px !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #6e6c6c !important;
+    font-size: 17px !important;
+    font-weight: 630 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #6e6c6c !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
